@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Khand:wght@500&family=Press+Start+2P&display=swap');
+
+* {
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+
+    background-color: #ffcbe7;
+
+}
+
+span {
+    font-size: 5em;
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #d10e79;
+    text-transform: uppercase;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    color: #000;
+}
+
